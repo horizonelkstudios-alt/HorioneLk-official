@@ -36,65 +36,83 @@
   <div class="scroll-bar" id="scrollBar"></div>
 
   <!-- NAV -->
-   <div class="nav-mobile">
-  <nav role="navigation" aria-label="Main navigation" id="mainNav">
-    <div class="nav-outer">
-      <div class="nav-inner" id="navInner">
-        <a class="brand" href="#home" aria-label="Studio Horizone Home">
-          <img src="LOGO.png" alt="Horizone Logo">
-        </a>
+<!-- NAV -->
+<nav role="navigation" aria-label="Main navigation" id="mainNav">
+  <div class="nav-outer">
+    <div class="nav-inner" id="navInner">
 
-        <!-- hamburger for mobile -->
-        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Open navigation menu">☰</button>
+      <a class="brand" href="#home" aria-label="Studio Horizone Home">
+        <img src="LOGO.png" alt="Horizone Logo">
+      </a>
 
-        <div class="nav-links" id="primaryNav" role="menubar" aria-label="Primary">
-          <a href="#home" role="menuitem">Home</a>
-          <a href="#portfolio" role="menuitem">Portfolio</a>
-          <a href="#contact" role="menuitem">Contact</a>
-          <a class="cta" href="#contact" role="menuitem">Book Us</a>
-        </div>
+      <!-- Hamburger -->
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Open navigation menu">
+        ☰
+      </button>
+
+      <!-- Mobile / Desktop Links -->
+      <div class="nav-links" id="primaryNav" role="menubar" aria-label="Primary">
+        <a href="#home" role="menuitem">Home</a>
+        <a href="#portfolio" role="menuitem">Portfolio</a>
+        <a href="#contact" role="menuitem">Contact</a>
+        <a class="cta" href="#contact" role="menuitem">Book Us</a>
       </div>
+
     </div>
-  </nav>
   </div>
+</nav>
+
 
   <!-- HERO -->
-  <header class="hero" id="home" role="banner">
-    <!-- Background slider layers (replace image paths) -->
-    <div class="bg-layer layer-1" style="background-image:url('Horizone banner.png');"></div>
-    <div class="bg-layer layer-2" style="background-image:url('Horizone banner.png'); opacity:.28;"></div>
+<header class="hero" id="home" role="banner">
 
-    <div class="hero-content" role="region" aria-label="Intro">
-      <h1>Welcome &nbsp; to &nbsp; Studio &nbsp; Horizone &nbsp; Lk <span class="highlight"> &nbsp; Where &nbsp; We &nbsp; make &nbsp; your &nbsp; moments &nbsp; Timeless</span></h1>
-      <p class="lead">Studio Horizone LK — turning moments into cinematic memories. We specialize in Event Photography, Videography, Trailers, After Movies & Aerial Videography.</p>
+  <!-- REAL video background -->
+  <video class="hero-video" autoplay muted loop playsinline>
+    <source src="BGvideo.mp4" type="video/mp4">
+  </video>
 
-      <div class="hero-cta">
-        <a class="cta" href="#portfolio">View Work</a>
-        <a class="social-btn" href="https://www.instagram.com/horizone_lk" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a class="social-btn2" href="https://www.instagram.com/horizone_lk" target="_blank" rel="noopener noreferrer">Contact Us</a>
-      </div>
+  <!-- keep your animated bg layers (optional if you want blend effects) -->
+  <div class="bg-layer layer-1"></div>
+  <div class="bg-layer layer-2"></div>
 
-      <div class="meta-row" aria-hidden="true">
-        <div class="meta">Profesionality</div>
-        <div class="meta">Events • Concerts • Parties</div>
-        <div class="meta">Based in Sri Lanka</div>
-      </div>
+  <div class="hero-content" role="region" aria-label="Intro">
+   <div>
+    <h1>Welcome &nbsp; to &nbsp; Horiozne &nbsp;Lk</h1>
+    <h1>—&nbsp;&nbsp; Where &nbsp; we &nbsp; turn &nbsp; your &nbsp; moments &nbsp; Timeless&nbsp;&nbsp;—</h1>
     </div>
-  </header>
+
+    <p class="lead">Studio Horizone LK — turning moments into cinematic memories. We specialize in Event Photography, Videography, Trailers, After Movies & Aerial Videography.</p>
+
+    <div class="hero-cta">
+      <a class="cta" href="#portfolio">View Work</a>
+      <a class="social-btn" href="https://www.instagram.com/horizone_lk" target="_blank">Instagram</a>
+      <a class="social-btn2" href="https://www.instagram.com/horizone_lk" target="_blank">Contact Us</a>
+    </div>
+
+    <div class="meta-row" aria-hidden="true">
+      <div class="meta">Profesionality</div>
+      <div class="meta">Events • Concerts • Parties</div>
+      <div class="meta">Based in Sri Lanka</div>
+    </div>
+  </div>
+</header>
 
   <main>
     <!-- WHAT WE DO -->
+
     <section id="what" class="fade-section">
-      <div class="split">
-        <div>
-          <h2 class="mb-8">What we do</h2>
-          <div class="intro">
-            <p><span class="highlight">Studio Horizone</span> provides end-to-end production for events, short films, and brand content. We work closely with clients to conceptualize, shoot and deliver polished cinematic content.</p>
-            <p class="mt-8">We pride ourselves on story-driven visuals, thoughtful lighting and a calm on-set presence. For reasonable prices, we deliver studio-grade production value tailored to your budget.</p>
-          </div>
-        </div>
-        <div>
-              <div class="auto-slider">
+    <div class="split"> 
+             <div class="what-we-do-padding">
+                     <div>
+                       <h2 class="mb-8">WHAT WE DO ? </h2>
+                       <div class="intro">
+                        <p><span class="highlight">Studio Horizone</span> provides end-to-end production for events, short films, and brand content. We work closely with clients to conceptualize, shoot and deliver polished cinematic content.</p>
+                    <p class="mt-8">We pride ourselves on story-driven visuals, thoughtful lighting and a calm on-set presence. For reasonable prices, we deliver studio-grade production value tailored to your budget.</p>
+                    </div>
+                  </div>
+               </div>
+          <div class="img-slider-padding">
+        <div class="auto-slider">
   <div class="slide-track">
     <div class="slide"><img src="imgslider.png" alt=""></div>
     <div class="slide"><img src="imgslider1.png" alt=""></div>
@@ -110,74 +128,147 @@
     <div class="slide"><img src="imgslider4.png" alt=""></div>
   </div>
 </div>
+</div>
 
         </div>
         
       </div>
     </section>
 
-    <!-- PORTFOLIO -->
+<!-- PORTFOLIO -->
+ <div class="portfolio-padding">
     <section id="portfolio" class="fade-section">
       <h2 class="center mb-8">Our Contributions</h2>
 
       <div class="grid">
         <!-- Card 1 -->
-        <div class="card" data-src="PR1.PNG" tabindex="0" aria-label="Open Richmond Caded Get Together">
-          <div class="img" style="background-image:url('PR1.PNG')" role="img" aria-hidden="true"></div>
+        <div class="card" data-src="pr1.png" data-link="https://www.facebook.com/share/p/1FxFFsESay/" tabindex="0" aria-label="Open Richmond Caded Get Together">
+          <div class="img" style="background-image:url('pr1.png')" role="img" aria-hidden="true1"></div>
           <div class="overlay">
             <h3>Richmond Caded Get Together</h3>
             <p>Official Photography Partner</p>
           </div>
         </div>
+
+  
 
         <!--Card 2-->
-        <div class="card" data-src="PR2.PNG" tabindex="0" aria-label="Open Richmond Caded Get Together">
-          <div class="img" style="background-image:url('PR2.PNG')" role="img" aria-hidden="true"></div>
+        <div class="card" data-src="pr2.png" data-link="https://www.facebook.com/share/p/1BaTiQ6Z8C/" tabindex="0" aria-label="Open SAC Football Motivation Program">
+          <div class="img" style="background-image:url('pr2.png')" role="img" aria-hidden="true2"></div>
           <div class="overlay">
-            <h3>Richmond Caded Get Together</h3>
+            <h3>SAC Motivation Program</h3>
             <p>Official Photography Partner</p>
           </div>
         </div>
 
-        <!-- Card 3 -->
-        <div class="card" data-src="PR3.PNG" tabindex="0" aria-label="Open Happy 18th Wenuri">
-          <div class="img" style="background-image:url('PR3.PNG')" role="img" aria-hidden="true"></div>
+
+                <!--Card 3-->
+        <div class="card" data-src="pr3.png" data-link="https://www.facebook.com/share/p/19bEdDojWd/" tabindex="0" aria-label="Open SAC Football Motivation Program">
+          <div class="img" style="background-image:url('pr3.png')" role="img" aria-hidden="true2"></div>
+          <div class="overlay">
+            <h3>Wenuri's Photoshoot</h3>
+            <p>Official Photography Partner</p>
+          </div>
+        </div>
+
+                     <!--Card 4-->
+        <div class="card" data-src="pr4.png" data-link="https://www.facebook.com/share/p/1A5Lj1yiRq/" tabindex="0" aria-label="Open SAC Football Motivation Program">
+          <div class="img" style="background-image:url('pr4.png')" role="img" aria-hidden="true2"></div>
+          <div class="overlay">
+            <h3>Pulmi's's Photoshoot</h3>
+            <p>Official Photography Partner</p>
+          </div>
+        </div>
+
+        <!-- Card 11 -->
+        <div class="card" data-src="pr11.png" data-link="https://youtu.be/J8e6R2RBhF4?si=965HtsYukPEfvak3" tabindex="0" aria-label="Open Happy 18th Wenuri">
+          <div class="img" style="background-image:url('pr11.png')" role="img" aria-hidden="true"></div>
           <div class="overlay">
             <h3>Happy 18th Wenuri</h3>
             <p>Official Videography Partner</p>
           </div>
         </div>
 
-        <!-- Card 4 -->
-        <div class="card" data-src="PR4.PNG" tabindex="0" aria-label="Open Happy 11th Pulmi">
-          <div class="img" style="background-image:url('PR4.PNG')" role="img" aria-hidden="true"></div>
+        <!-- Card 12 -->
+        <div class="card" data-src="pr12.png" data-link="https://youtu.be/J8e6R2RBhF4?si=965HtsYukPEfvak3" tabindex="0" aria-label="Open Happy 11th Pulmi">
+          <div class="img" style="background-image:url('pr12.png')" role="img" aria-hidden="true"></div>
           <div class="overlay">
             <h3>Happy 11th Pulmi</h3>
             <p>Official Videography Partner</p>
           </div>
         </div>
 
-        <!-- Card 5 -->
-        <div class="card" data-src="PR5.png" tabindex="0" aria-label="Open Saiyaare Cover Music Video">
-          <div class="img" style="background-image:url('PR5.png')" role="img" aria-hidden="true"></div>
+        <!-- Card 13 -->
+        <div class="card" data-src="pr13.png"  data-link="https://youtu.be/saszroVfie4?si=77P_4IkXzG1k6mYt" tabindex="0" aria-label="Open Saiyaare Cover Music Video">
+          <div class="img" style="background-image:url('pr13.png')" role="img" aria-hidden="true"></div>
           <div class="overlay">
             <h3>Saiyaare Cover Music Video</h3>
             <p>Official Videography Partner</p>
           </div>
         </div>
 
+       <!-- Lightbox Modal -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true1" aria-hidden="true1"> 
+    <div class="inner" role="document">
+      <button class="close" id="lbClose" aria-label="Close">✕</button>
+      <img id="lbImg" src="" alt="Portfolio image">
+      <div class="meta">
+         
+
+        <div class="muted" id="lbCaption">Project</div>
+        <div><a class="cta1" id="lbLink" href="https://www.facebook.com/share/p/1BaTiQ6Z8C/" target="_blank" rel="noopener noreferrer">View</a></div>
+        
+      </div>
+    </div>
+  </div>
+
+
         <!-- extra cards as template, duplicate if needed -->
       </div>
     </section>
+</div>
+
+<!--Feedbacks-->
+
+<div class="feedbacks">
+     <div class="what-we-do-padding">
+                <div>
+                     <center>  <h2 class="mb-8">CUSTOMER REVIEWS</h2> </center>
+                       <div class="intro">
+                        <p><span class="highlight">Studio Horizone</span> provides end-to-end production for events, short films, and brand content. We work closely with clients to conceptualize, shoot and deliver polished cinematic content.</p>
+                    <p class="mt-8">We pride ourselves on story-driven visuals, thoughtful lighting and a calm on-set presence. For reasonable prices, we deliver studio-grade production value tailored to your budget.</p>
+                                                 <div class="image-slider">
+                              <div class="slider-track">
+                                <img src="Custormer_Review_01.png" alt="">
+                                <img src="Custormer_Review_02.png" alt="">
+                                <img src="Custormer_Review_01.png" alt="">
+                                <img src="Custormer_Review_02.png" alt="">
+                                <img src="Custormer_Review_01.png" alt="">
+
+                                <!-- duplicated for infinite loop -->
+                                <img src="Custormer_Review_02.png" alt="">
+                                <img src="Custormer_Review_01.png" alt="">
+                                <img src="Custormer_Review_02.png" alt="">
+                                <img src="Custormer_Review_01.png" alt="">
+                                <img src="Custormer_Review_02.png" alt="">
+                              </div>
+                            </div>
+                  
+                  </div>
+                  </div>
+         </div>
+
+</div>
+
 
     <!-- Social -->
     <section id="socials" class="fade-section">
       <h2 class="center mb-8">Follow us</h2>
       <div class="social-row">
-        <a class="social-btn" href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
-        <a class="social-btn" href="https://www.instagram.com/horizone_lk" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a class="social-btn" href="https://youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a>
-        <a class="social-btn" href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">TikTok</a>
+        <a class="social-btn3" href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a class="social-btn3" href="https://www.instagram.com/studiohorizone_lk?igsh=MTNjOWF1MWJibXFxeQ==" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a class="social-btn3" href="https://youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <a class="social-btn3" href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">TikTok</a>
       </div>
     </section>
 
@@ -185,19 +276,23 @@
     <section id="contact" class="fade-section">
       <h2 class="center mb-8">Contact Us</h2>
       <div class="contacts">
-        <div class="contact-card">
+
+        <a class="contact-card" href="tel:+94772947108" target="_blank" rel="noopener noreferrer">
           <h3>Phone</h3>
-          <p class="muted">+94 77 294 7108</p>
-        </div>
-        <div class="contact-card">
+          <p class="muted" >+94 77 294 7108</p>
+        </a>
+
+        <a class="contact-card" href="mailtp:horizonelkstudios@gmail.com" target="_blank" rel="noopener noreferrer">
           <h3>Email</h3>
           <p class="muted">hello@horizonelkstudios.com</p>
-        </div>
-        <div class="contact-card">
+        </a>
+
+        <a class="contact-card" href="https://www.instagram.com/studiohorizone_lk?igsh=MTNjOWF1MWJibXFxeQ==" target="_blank" rel="noopener noreferrer">
           <h3>Instagram</h3>
           <p class="muted">@studiohorizonelk</p>
-        </div>
+        </a>
       </div>
+
     </section>
 
     <footer>
@@ -205,17 +300,7 @@
     </footer>
   </main>
 
-  <!-- Lightbox Modal -->
-  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
-    <div class="inner" role="document">
-      <button class="close" id="lbClose" aria-label="Close">✕</button>
-      <img id="lbImg" src="" alt="Portfolio image">
-      <div class="meta">
-        <div class="muted" id="lbCaption">Project</div>
-        <div><a class="cta" id="lbLink" href="#" target="_blank" rel="noopener noreferrer">View</a></div>
-      </div>
-    </div>
-  </div>
+ 
 
   <!-- Animated cursor element -->
   <div class="cursor" id="cursor" aria-hidden="true"></div>
@@ -233,11 +318,19 @@
 
   // navc bar
 
- const navToggle = document.getElementById("navToggle");
+const navToggle = document.getElementById("navToggle");
 const navInner = document.getElementById("navInner");
 
 navToggle.addEventListener("click", () => {
   navInner.classList.toggle("active");
+});
+
+// shrink on scroll
+const nav = document.querySelector("nav");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 60) nav.classList.add("shrink");
+  else nav.classList.remove("shrink");
 });
 
 
@@ -304,6 +397,39 @@ navToggle.addEventListener("click", () => {
     }
   });
 
+  const lbLink = document.getElementById('lbLink');
+
+function openLightbox(src, title, link){
+  lbImg.src = src;
+  lbImg.alt = title || 'Portfolio image';
+  lbCaption.textContent = title || 'Project';
+  lbLink.href = link || "#";  // ← set the correct link
+  lightbox.classList.add('open');
+  lightbox.setAttribute('aria-hidden','false');
+}
+
+cards.forEach(c => {
+  
+  c.addEventListener('click', () => {
+    openLightbox(
+      c.dataset.src,
+      c.querySelector('h3').textContent,
+      c.dataset.link  // ← NEW
+    );
+  });
+
+  c.addEventListener('keydown', (e) => { 
+    if (e.key === 'Enter' || e.key === ' ') {
+      openLightbox(
+        c.dataset.src,
+        c.querySelector('h3').textContent,
+        c.dataset.link  // ← NEW
+      );
+    }
+  });
+});
+
+
   // animated cursor
   const cursor = document.getElementById('cursor');
   document.addEventListener('mousemove', (e) => {
@@ -312,7 +438,7 @@ navToggle.addEventListener("click", () => {
   });
 
   // grow cursor on interactive elements
-  const interactives = document.querySelectorAll('a, button, .card, .cta, .social-btn');
+  const interactives = document.querySelectorAll('a, button, .card, .cta1, .social-btn');
   interactives.forEach(el => {
     el.addEventListener('mouseenter', () => cursor.classList.add('grow'));
     el.addEventListener('mouseleave', () => cursor.classList.remove('grow'));
@@ -322,7 +448,7 @@ navToggle.addEventListener("click", () => {
   const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
   if(mq.matches){
     document.querySelectorAll('.bg-layer').forEach(l => l.style.animation = 'none');
-    document.querySelectorAll('.hero .hero-cta, .hero h1, .hero p').forEach(e => e.style.animation = 'none');
+    document.querySelectorAll('.hero .hero-cta1, .hero h1, .hero p').forEach(e => e.style.animation = 'none');
   }
 
   // simple accessibility: focus outlines for keyboard users
@@ -340,21 +466,11 @@ navToggle.addEventListener("click", () => {
     });
   });
 
-// Slightly shrink nav on scroll
-const nav = document.querySelector('nav');
 
-window.addEventListener('scroll', () => {
-  const sc = window.scrollY;
-
-  if (sc > 60) {
-    nav.classList.add('shrink');
-  } else {
-    nav.classList.remove('shrink');
-  }
-});
 
   // 3D tilt on cards
 cards.forEach(card => {
+  
   card.addEventListener("mousemove", e => {
     const rect = card.getBoundingClientRect();
     const x = e.clientX - rect.left;
@@ -372,7 +488,7 @@ cards.forEach(card => {
 });
 
 // magnetic buttons
-document.querySelectorAll('.cta, .social-btn, .social-btn2').forEach(btn => {
+document.querySelectorAll('.cta, .cta1, .social-btn, .social-btn2').forEach(btn => {
   btn.addEventListener("mousemove", e => {
     const rect = btn.getBoundingClientRect();
     const x = e.clientX - (rect.left + rect.width / 2);
@@ -417,7 +533,7 @@ document.addEventListener("mousemove", e => {
 // ----------------------
 
 // ★ MAGNETIC ELEMENTS (buttons/cards move toward cursor)
-document.querySelectorAll(".cta, .social-btn, .card").forEach(el => {
+document.querySelectorAll(".cta, .cta, .social-btn, .card").forEach(el => {
   el.addEventListener("mousemove", e => {
     const r = el.getBoundingClientRect();
     const x = e.clientX - r.left - r.width / 2;
@@ -448,6 +564,9 @@ heroTitle.innerHTML = heroTitle.textContent
 window.addEventListener("scroll", () => {
   const cards = document.querySelectorAll(".card");
   cards.forEach(c => {
+
+
+    
     const rect = c.getBoundingClientRect();
     const offset = (window.innerHeight - rect.top) / window.innerHeight;
     const scale = 0.95 + offset * 0.05;
@@ -456,6 +575,29 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+
+c.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+
+        const rect = c.getBoundingClientRect();
+        const scrollY = window.scrollY;
+        const scrollX = window.scrollX;
+
+        const x = rect.left + scrollX;
+        const y = rect.top + scrollY;
+
+        const inner = lightbox.querySelector('.inner');
+        inner.style.left = x + "px";
+        inner.style.top = y + "px";
+
+        openLightbox(
+          c.dataset.src,
+          c.querySelector('h3').textContent,
+          c.dataset.link
+        );
+    }
+});
+
 
 // ★ FLOATING PARTICLES BEHIND HERO
 const hero = document.querySelector(".hero");
