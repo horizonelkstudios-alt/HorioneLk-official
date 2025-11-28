@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio Horizone LK — Gallery</title>
+  <link rel="stylesheet" href="featured.css">
+</head>
+
+<body>
+
+
+<!-- NAV -->
+<nav role="navigation" aria-label="Main navigation" id="mainNav">
+  <div class="nav-outer">
+    <div class="nav-inner" id="navInner">
+
+      <a class="brand" href="#home" aria-label="Studio Horizone Home">
+        <img src="logo.png" alt="Horizone Logo">
+      </a>
+
+      <!-- Hamburger -->
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Open navigation menu">
+        ☰
+      </button>
+
+      <!-- Mobile / Desktop Links -->
+      <div class="nav-links" id="primaryNav" role="menubar" aria-label="Primary">
+        <a href="index.html" role="menuitem">Home</a>
+        <a href="index.html" role="menuitem">Portfolio</a>
+        <a href="index.html" role="menuitem">Contact</a>
+        <a class="cta" href="index.html" role="menuitem">Book Us</a>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Desktop Background Video -->
+  <video class="bg-video desktop-video" autoplay muted loop playsinline>
+    <source src="BGvideo.mp4" type="video/mp4">
+  </video>
+
+  <!-- Mobile Background Video -->
+  <video class="bg-video mobile-video" autoplay muted loop playsinline>
+    <source src="BGvideo2.mp4" type="video/mp4">
+  </video>
+
+  <!-- Page Wrapper -->
+  <div class="page-wrapper fade-in">
+
+    <header class="header">
+      <h1 class="logo">Studio Horizone LK</h1>
+      <p class="tagline">Your Story, Our Vision</p>
+    </header>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+      <h2 class="featuredh2">Featured Gallery</h2>
+
+      <div class="gallery">
+        <img src="1.jpg" alt="">
+        <img src="2.jpg" alt="">
+        <img src="3.jpg" alt="">
+        <img src="4.jpg" alt="">
+        <img src="5.jpg" alt="">
+        <img src="6.jpg" alt="">
+        <img src="7.jpg" alt="">
+        <img src="8.jpg" alt="">
+        <img src="9.jpg" alt="">
+        <img src="10.jpg" alt="">
+        <img src="11.jpg" alt="">
+        <img src="12.jpg" alt="">
+        <img src="13.jpg" alt="">
+        <img src="14.jpg" alt="">
+        <img src="15.jpg" alt="">
+        <img src="16.jpg" alt="">
+        <img src="17.jpg" alt="">
+        <img src="18.jpg" alt="">
+        <img src="19.jpg" alt="">
+        <img src="20.jpg" alt="">
+        <img src="21.jpg" alt="">
+        <img src="22.jpg" alt="">
+        <img src="23.jpg" alt="">
+        <img src="24.jpg" alt="">
+         <img src="25.jpg" alt="">
+        <img src="26.jpg" alt="">
+        <img src="27.jpg" alt="">
+        <img src="28.jpg" alt="">
+        <img src="29.jpg" alt="">
+        <img src="30.jpg" alt="">
+        <
+      </div>
+
+      
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Studio Horizone LK — All Rights Reserved</p>
+  </footer>
+
+
+<script>
+
+ // navc bar
+
+const navToggle = document.getElementById("navToggle");
+const navInner = document.getElementById("navInner");
+
+navToggle.addEventListener("click", () => {
+  navInner.classList.toggle("active");
+});
+
+// shrink on scroll
+const nav = document.querySelector("nav");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 60) nav.classList.add("shrink");
+  else nav.classList.remove("shrink");
+});
+
+
+    </script>
+
+</body>
+</html>
