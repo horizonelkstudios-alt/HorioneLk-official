@@ -874,13 +874,13 @@
 
 /* Card */
 .project-card {
-  background: var(--card-bg);
+  background-color: white;
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
-
+              
 .project-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
@@ -944,6 +944,7 @@
 .Featuredh2 {
   margin-top: 50px;
 }
+
 
 
 
