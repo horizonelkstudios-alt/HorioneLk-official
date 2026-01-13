@@ -19,7 +19,7 @@
     --fw-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
     --fw-serif: "Playfair Display", serif;
 
-      --nav-width: 1200px; /* or any width you want */
+      --nav-width: 1200px; 
   }
 
 @font-face {
@@ -942,5 +942,6 @@
 .Featuredh2 {
   margin-top: 50px;
 }
+
 
 
