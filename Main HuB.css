@@ -2,7 +2,11 @@
 
 
 
-
+  --bg-light: #f9f9fb;
+  --card-bg: #ffffff;
+  --text-dark: #1e1e1e;
+  --text-muted: #6b6b6b;
+  --accent: #c8a97e;
     --bg:#0f0f10;
     --card:#0f1720;
     --muted:#ffaded;
@@ -938,4 +942,5 @@
 .Featuredh2 {
   margin-top: 50px;
 }
+
 
