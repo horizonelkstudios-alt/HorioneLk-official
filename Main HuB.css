@@ -139,11 +139,14 @@
   }
   .nav-links a:hover{ color:var(--white); background:rgba(255,255,255,0.03); transform:translateY(-3px) }
 
-  .cta{
+
+  .cta{ 
+    border-radius: 3px;
     background: linear-gradient(90deg,var(--accent),var(--accent-2));
-    color:#07101b; padding:8px 14px; border-radius:10px; font-weight:700;
+    color:#07101b; padding:8px 14px; font-weight:700;
     position:relative; overflow:hidden;
   }
+  
   
 
   .cta1::after{
@@ -401,7 +404,7 @@
   }
   .cta:hover{ transform:translateY(-6px);var(--accent) box-shadow:0 10px 40px rgba(122, 211, 255, 0.173) }
   .social-btn{
-     backdrop-filter: blur(30px); font-size: 20px; border-radius: 5px;
+     backdrop-filter: blur(30px); font-size: 20px; border-radius: 3px;
     display:inline-flex; gap:10px; align-items:center; padding:6% 14px;  text-decoration:none; color:var(--white);
     font-weight:800; background:linear-gradient(90deg, rgba(255, 255, 255, 0.175), rgba(205, 0, 205, 0.23)); 
     transition:transform .25s, box-shadow .25s;
@@ -414,12 +417,12 @@
      }
 
   .social-btn2{  background: linear-gradient(90deg,var(--accent),var(--accent-2)); color: rgb(255, 255, 255);
-    color:#07101b; padding:8px 14px; border-radius:5px; font-weight:700; text-decoration:wavy;
+    color:#07101b; padding:8px 14px; border-radius:3px; font-weight:700; text-decoration:wavy;
  transition:transform .25s, box-shadow .25s; 
   }
   .social-btn2:hover{ transform:translateY(-6px); box-shadow:0 10px 40px rgba(122, 211, 255, 0.219) }
 
-  .social-btn3{ display:inline-flex; gap:10px; align-items:center; padding:10px 14px; border-radius:5px; text-decoration:none; color:var(--white);
+  .social-btn3{ display:inline-flex; gap:10px; align-items:center; padding:10px 14px; border-radius:3px; text-decoration:none; color:var(--white);
     font-weight:700; background:linear-gradient(90deg, rgba(255, 255, 255, 0.175), rgba(255,255,255,0.01));
     transition:transform .25s, box-shadow .25s;
 
@@ -433,7 +436,7 @@
     
     .cta1{
     background: linear-gradient(90deg,var(--accent),var(--accent-2)); color: rgb(255, 255, 255);
-    color:#07101b; padding:8px 14px; border-radius:5px; font-weight:700; text-decoration:wavy;
+    color:#07101b; padding:8px 14px; border-radius:3px; font-weight:700; text-decoration:wavy;
  transition:transform .25s, box-shadow .25s; 
   }
   .cta1:hover{ transform:translateY(-6px);var(--accent) box-shadow:0 10px 40px rgba(122, 211, 255, 0.173) }
@@ -973,6 +976,7 @@
 .Featuredh2 {
   margin-top: 50px;
 }
+
 
 
 
