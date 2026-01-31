@@ -241,28 +241,34 @@
   }
 
   /* hero content card */
-  .hero-content{ 
+.hero-content{ 
 
     position:relative; z-index:6; text-align:center; max-width:1000px; padding-left:28px; padding-right:28px; margin-top: 100px;
-    display:flex; gap:28px; align-items:center; justify-content:center; flex-direction:column;
+    display:flex; gap:50px; align-items:center; justify-content:center; flex-direction:column;
     transform:translateY(0); animation:heroFade .9s ease both;
   }
   @keyframes heroFade { from{opacity:0; transform:translateY(18px)} to{opacity:1; transform:translateY(0)}}
 
   .hero h1{
-    font-family:var(--fw-serif); font-size:clamp(28px,6vw,56px); line-height:1.02; margin:0;
+    font-size:clamp(28px,6vw,56px); line-height:1.02; margin:0;
     letter-spacing:-1px; color:var(--white);
     text-shadow: 0 8px 30px rgba(0,0,0,0.6);
   }
+
+  .bgimg{
+    width: 120%;
+    height:120%;
+  }
+
   .hero p.lead{
         font-family: Themorecrowsfree;
     color:var(--muted); font-size:clamp(20px,5vw,22px); margin-top:12px; max-width:860px;
   }
-  .hero .hero-cta{ margin-top:16px; display:flex; gap:12px; align-items:center; }
+  .hero .hero-cta{ margin-top:15px; display:flex; gap:12px; align-items:center; }
 
   /* subtle glass cards under hero */
   .hero .meta-row{ display:flex; gap:12px; margin-top:22px; flex-wrap:wrap; justify-content:center   }
-  .meta { background:var(--glass); padding:10px 12px; border-radius:10px; color:var(--muted); font-weight:600; backdrop-filter: blur(6px) }
+  .meta { background:var(--glass); padding:100px 12px; border-radius:10px; color:var(--muted); font-weight:600; backdrop-filter: blur(6px) }
 
   /* MAIN CONTENT */
   main{ max-width:1200px; margin:0 auto; padding:40px 0px 120px; z-index:10; position:relative; }
@@ -367,13 +373,13 @@
 
     .cta{
     background: linear-gradient(90deg,var(--accent),var(--accent-2)); color: rgb(255, 255, 255);
-    color:#07101b; padding:8px 14px; border-radius:10px; font-weight:700; text-decoration:wavy;
+    color:#07101b; padding:8px 14px;  font-weight:700; text-decoration:wavy;
  transition:transform .25s, box-shadow .25s; 
   }
   .cta:hover{ transform:translateY(-6px);var(--accent) box-shadow:0 10px 40px rgba(122, 211, 255, 0.173) }
   .social-btn{
-     backdrop-filter: blur(30px); font-size: 20px;
-    display:inline-flex; gap:10px; align-items:center; padding:6% 14px; border-radius:15px; text-decoration:none; color:var(--white);
+     backdrop-filter: blur(30px); font-size: 20px; border-radius: 5px;
+    display:inline-flex; gap:10px; align-items:center; padding:6% 14px;  text-decoration:none; color:var(--white);
     font-weight:800; background:linear-gradient(90deg, rgba(255, 255, 255, 0.175), rgba(205, 0, 205, 0.23)); 
     transition:transform .25s, box-shadow .25s;
 
@@ -385,12 +391,12 @@
      }
 
   .social-btn2{  background: linear-gradient(90deg,var(--accent),var(--accent-2)); color: rgb(255, 255, 255);
-    color:#07101b; padding:8px 14px; border-radius:10px; font-weight:700; text-decoration:wavy;
+    color:#07101b; padding:8px 14px; border-radius:5px; font-weight:700; text-decoration:wavy;
  transition:transform .25s, box-shadow .25s; 
   }
   .social-btn2:hover{ transform:translateY(-6px); box-shadow:0 10px 40px rgba(122, 211, 255, 0.219) }
 
-  .social-btn3{ display:inline-flex; gap:10px; align-items:center; padding:10px 14px; border-radius:15px; text-decoration:none; color:var(--white);
+  .social-btn3{ display:inline-flex; gap:10px; align-items:center; padding:10px 14px; border-radius:5px; text-decoration:none; color:var(--white);
     font-weight:700; background:linear-gradient(90deg, rgba(255, 255, 255, 0.175), rgba(255,255,255,0.01));
     transition:transform .25s, box-shadow .25s;
 
@@ -404,7 +410,7 @@
     
     .cta1{
     background: linear-gradient(90deg,var(--accent),var(--accent-2)); color: rgb(255, 255, 255);
-    color:#07101b; padding:8px 14px; border-radius:10px; font-weight:700; text-decoration:wavy;
+    color:#07101b; padding:8px 14px; border-radius:5px; font-weight:700; text-decoration:wavy;
  transition:transform .25s, box-shadow .25s; 
   }
   .cta1:hover{ transform:translateY(-6px);var(--accent) box-shadow:0 10px 40px rgba(122, 211, 255, 0.173) }
@@ -944,6 +950,7 @@
 .Featuredh2 {
   margin-top: 50px;
 }
+
 
 
 
