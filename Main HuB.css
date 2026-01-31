@@ -288,7 +288,7 @@
 
   /* subtle glass cards under hero */
   .hero .meta-row{ display:flex; gap:12px; margin-top:22px; flex-wrap:wrap; justify-content:center   }
-  .meta { background:var(--glass); padding:100px 12px; border-radius:10px; color:var(--muted); font-weight:600; backdrop-filter: blur(6px) }
+  .meta { background:var(--glass); padding:10px 12px; border-radius:10px; color:var(--muted); font-weight:600; backdrop-filter: blur(6px) }
 
   /* MAIN CONTENT */
   main{ max-width:1200px; margin:0 auto; padding:40px 0px 120px; z-index:10; position:relative; }
@@ -970,6 +970,7 @@
 .Featuredh2 {
   margin-top: 50px;
 }
+
 
 
 
